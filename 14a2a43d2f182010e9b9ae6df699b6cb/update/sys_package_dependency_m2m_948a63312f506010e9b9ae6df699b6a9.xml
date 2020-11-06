@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Agile - Scaled Agile Framework - Essential SAFe" source="com.snc.sdlc.safe">643e7eed2fd02010e9b9ae6df699b66d</dependency>
+        <min_version/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 17:10:23</sys_created_on>
+        <sys_id>948a63312f506010e9b9ae6df699b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 17:10:23</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

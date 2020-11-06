@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="SAFe DevOps">8633647d2f182010e9b9ae6df699b649</application>
+        <application display_value="Code Search">83d0a3792f106010e9b9ae6df699b637</application>
         <assessment/>
         <device_type/>
         <filter/>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>SAFe Tasks</mobile_title>
+        <mobile_title>Search Code</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_25421_safe_devop_safe_tasks</name>
-        <order>100</order>
+        <name/>
+        <order/>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>/x_25421_safe_devop_PeerCodeSearch.do</query>
         <report/>
-        <roles>x_25421_safe_devop.safe_tasks_user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-11-06 02:39:42</sys_created_on>
+        <sys_created_on>2020-11-06 16:34:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c6332c7d2f182010e9b9ae6df699b67c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Default SAFe Tasks</sys_name>
+        <sys_id>da2223b92f106010e9b9ae6df699b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Code</sys_name>
         <sys_overrides/>
         <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
-        <sys_update_name>sys_app_module_c6332c7d2f182010e9b9ae6df699b67c</sys_update_name>
+        <sys_update_name>sys_app_module_da2223b92f106010e9b9ae6df699b67c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-06 16:38:22</sys_updated_on>
+        <sys_updated_on>2020-11-06 16:34:46</sys_updated_on>
         <timeline_page/>
-        <title>Default SAFe Tasks</title>
+        <title>Search Code</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

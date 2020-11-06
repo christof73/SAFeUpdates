@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function sn_codesearch_getResults() {
+	$j("#sn_codesearch_results").html('');
+	
+	var userToken = "$[gs.getSessionToken()]";
+	
+	var endpoint = '/api/sn_codesearch/code_search/search',
+	limit = $[gs.getProperty('sn_codesearch.search.results.max', 500)],
+	req = {
+		data : {
+			limit : limit,
+			current_app : "sn_codesearch",
+			table : $j("#sn_codesearch_table").val(),
+			term : $j("#sn_codesearch_term").val(),
+			search_all_scopes : $j("#sn_codesearch_search_all_scopes").is(":checked")
+		},
+		
+		dataType : 'json',
+		headers : {"X-UserToken" : userToken}
+	};
+	
+	if(!req.data.term) {
+		alert("No search term provided.");
+		return false;
+	}
+		
+	var jqxhr = $j.ajax(endpoint, req)
+		.done(function(data, textStatus, jqXHR) {
+			var result = data.result;
+			//are we dealing with just one table's results
+			if (req.data.table)
+				writeOutputForTable(result);
+			else
+				for (var i=0; i<result.length; i++)
+					writeOutputForTable(result[i]);
+		})
+		.fail(function(jqXHR, textStatus, errorThrown) {
+			console.log("Error - unable to complete search. Message is " + errorThrown);
+		});
+
+	return false;
+}
+
+function sn_codesearch_clearSelections() {
+	$j("#sn_codesearch_table").val('');
+	$j("#sn_codesearch_term").val('');
+	if ($j("#sn_codesearch_search_all_scopes").is(":checked"))
+		$j('label[for="sn_codesearch_search_all_scopes"]').click();
+	
+	return false;
+}
+
+function writeOutputForTable(data) {
+	if(!data)
+		return;
+	
+	if(!data.hits)
+		return;
+	
+	var header = $j("<div><h1>" + data.tableLabel + "</h1></div>");
+	var result_body = "<div><p> Found <strong>" + data.hits.length + "</strong> records matching query.</p></div>";
+	result_body += "<div>";
+	
+	$j.each(data.hits, function(idx, hit) {
+		var result_desc = "<p>Record " + hit.name + " has <strong>" + hit.matches.length + "</strong> matching fields.</p>";
+		var text = "<ul>";
+		
+		$j.each(hit.matches, function(indx, match) {
+			text += "<li><p>" + match.fieldLabel + "</p>";
+			text += "<pre>";
+			$j.each(match.lineMatches, function(ix, fieldMatch) {
+				text += "Line: " + fieldMatch.line + " " + fieldMatch.escaped + "\n";
+			});
+			text += "</pre></li>";
+		});
+		text += "</ul>";
+		
+		result_body += result_desc + text;
+	});
+	
+	result_body += "</div>";
+	$j(result_body).appendTo(header);
+	$j(header).appendTo($j("#sn_codesearch_results"));
+
+}
+]]></client_script>
+        <description>An example UI Page invoking the CodeSearch macro. This page shouldn't be exposed to end-users, but instead should just serve as one way that the macro can be invoked and the results displayed.</description>
+        <direct>false</direct>
+        <endpoint>x_25421_safe_devop_PeerCodeSearch.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<g:requires name="styles/heisenberg/heisenberg_all.css" includes="true" />
+	<g:requires name="scripts/lib/jquery_includes.js" />
+	<g:requires name="scripts/heisenberg/heisenberg_all.js" />
+	
+	<g:sn_codesearch_CodeSearchExample />
+</j:jelly>]]></html>
+        <name>PeerCodeSearch</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 16:32:37</sys_created_on>
+        <sys_id>47d1ef392f106010e9b9ae6df699b604</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PeerCodeSearch</sys_name>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name>sys_ui_page_47d1ef392f106010e9b9ae6df699b604</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 16:33:02</sys_updated_on>
+    </sys_ui_page>
+</record_update>
