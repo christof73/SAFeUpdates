@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>When story changes to work in progress, create update set on dev instance and associate to story</description>
+        <internal_name>safe__story__state__work_in_progress</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>SAFe - Story - State = Work In Progress</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 02:53:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a56a0312f582010e9b9ae6df699b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAFe - Story - State = Work In Progress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name>sys_hub_flow_3a56a0312f582010e9b9ae6df699b6c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 02:53:25</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3a56a0312f582010e9b9ae6df699b6c1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3a56a0312f582010e9b9ae6df699b6c1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3a56a0312f582010e9b9ae6df699b6c1^sys_idNOT IN3e56a0312f582010e9b9ae6df699b6c3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3a56a0312f582010e9b9ae6df699b6c1</id>
+        <name>SAFe - Story - State = Work In Progress</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 02:53:25</sys_created_on>
+        <sys_id>3e56a0312f582010e9b9ae6df699b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 02:53:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>
