@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="rm_scrum_task" label="SAFe Scrum Task" max_length="40" name="sn_safe_scrum_task" sizeclass="12" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Default Task" max_length="32" name="x_25421_safe_devop_default_task" reference="x_25421_safe_devop_safe_tasks" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+    </element>
+</database>

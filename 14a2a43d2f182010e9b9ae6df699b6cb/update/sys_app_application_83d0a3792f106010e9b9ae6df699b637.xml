@@ -7,23 +7,23 @@
         <hint/>
         <name/>
         <order>100</order>
-        <roles>admin</roles>
+        <roles>x_25421_safe_devop.user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-06 16:28:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>83d0a3792f106010e9b9ae6df699b637</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Code Search</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SAFe DevOps Code Review</sys_name>
         <sys_overrides/>
         <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
         <sys_update_name>sys_app_application_83d0a3792f106010e9b9ae6df699b637</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-06 16:28:36</sys_updated_on>
-        <title>Code Search</title>
+        <sys_updated_on>2020-11-06 20:03:38</sys_updated_on>
+        <title>SAFe DevOps Code Review</title>
         <view_name/>
     </sys_app_application>
 </record_update>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="483c8c0a2f906010e9b9ae6df699b6d5" sys_domain="global" table="sn_safe_story" version="3" view="safe_devops">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>80ac804a2f906010e9b9ae6df699b6b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>04ac804a2f906010e9b9ae6df699b6b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sn_safe_feature</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>84ac804a2f906010e9b9ae6df699b6b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sn_safe_feature.sn_safe_epic</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>08ac804a2f906010e9b9ae6df699b6b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sn_safe_sprint</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>88ac804a2f906010e9b9ae6df699b6b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>story_points</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>0cac804a2f906010e9b9ae6df699b6b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>8cac804a2f906010e9b9ae6df699b6b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>00ac804a2f906010e9b9ae6df699b6b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>80ac804a2f906010e9b9ae6df699b6b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>04ac804a2f906010e9b9ae6df699b6b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_25421_safe_devop_peer_review_required</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>84ac804a2f906010e9b9ae6df699b6b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enabler</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>08ac804a2f906010e9b9ae6df699b6b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>88ac804a2f906010e9b9ae6df699b6b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>0cac804a2f906010e9b9ae6df699b6b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>8cac804a2f906010e9b9ae6df699b6b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acceptance_criteria</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:39:28</sys_created_on>
+            <sys_id>00ac804a2f906010e9b9ae6df699b6b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_safe_story" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">483c8c0a2f906010e9b9ae6df699b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:39:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_safe_story</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-06 19:37:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>483c8c0a2f906010e9b9ae6df699b6d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_safe_story</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+            <sys_update_name>sys_ui_section_483c8c0a2f906010e9b9ae6df699b6d5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-06 19:37:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SAFe DevOps" name="safe_devops">c566c4c22f906010e9b9ae6df699b696</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="SAFe Tasks" max_length="40" name="x_25421_safe_devop_safe_tasks" sizeclass="0" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Companies" max_length="4000" name="companies" reference="core_company" type="glide_list"/>
+        <element hint="Task will only be generated for the following contractors, based on user assigned to story" label="Contractors" max_length="4000" name="companies" reference="core_company" type="glide_list"/>
         <element attributes="readable=true" dependent="table" dependent_on_field="table" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
