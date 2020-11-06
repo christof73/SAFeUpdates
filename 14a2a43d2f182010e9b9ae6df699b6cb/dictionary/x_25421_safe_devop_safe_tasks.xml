@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="SAFe Tasks" max_length="40" name="x_25421_safe_devop_safe_tasks" sizeclass="0" type="collection">
-        <element label="Condition" max_length="4000" name="condition" type="conditions"/>
+        <element attributes="readable=true" dependent="table" dependent_on_field="table" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
@@ -13,6 +13,7 @@
             </choice>
         </element>
         <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element default="sn_safe_story" label="Table" max_length="32" name="table" read_only="true" type="table_name"/>
         <element choice="1" label="Type" max_length="40" name="type" reference="sys_ui_reference_style" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Analysis" sequence="0" value="1"/>
@@ -21,5 +22,8 @@
                 <element inactive_on_update="false" label="Testing" sequence="3" value="4"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="table"/>
+        </index>
     </element>
 </database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="SAFe DevOps Automation">d0293ff92f506010e9b9ae6df699b6b3</category>
+        <order>100</order>
+        <property display_value="x_25421_safe_devop.us_naming_convention" name="x_25421_safe_devop.us_naming_convention">56897ff92f506010e9b9ae6df699b6b4</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 18:23:26</sys_created_on>
+        <sys_id>463bb37d2f506010e9b9ae6df699b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_25421_safe_devop.us_naming_convention.SAFe DevOps Automation</sys_name>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_463bb37d2f506010e9b9ae6df699b691</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 18:23:26</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

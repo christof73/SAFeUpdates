@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>b48853b12f106010e9b9ae6df699b62f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_25421_safe_devop_safe_tasks">
+    <x_25421_safe_devop_safe_tasks action="INSERT_OR_UPDATE">
+        <condition table="sn_safe_story">state=2^assigned_toISNOTEMPTY^EQ<item display_value="Work in progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Development Description; Task is creaated when State is Ready for Development and story is assigned to a developer</description>
+        <order>20</order>
+        <priority>3</priority>
+        <short_description>Development</short_description>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 15:51:47</sys_created_on>
+        <sys_id>b48853b12f106010e9b9ae6df699b62f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 18:03:39</sys_updated_on>
+        <table>sn_safe_story</table>
+        <type>2</type>
+    </x_25421_safe_devop_safe_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 17:51:58</sys_created_on>
+        <sys_id>d9043bf52f506010e9b9ae6df699b672</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Created 2020-11-06 07:51:47</sys_name>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name>sys_metadata_link_d9043bf52f506010e9b9ae6df699b672</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 18:24:41</sys_updated_on>
+        <tablename>x_25421_safe_devop_safe_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

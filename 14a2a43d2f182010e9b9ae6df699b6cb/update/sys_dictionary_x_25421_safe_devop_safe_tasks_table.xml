@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="condition" table="x_25421_safe_devop_safe_tasks">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="table" table="x_25421_safe_devop_safe_tasks">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>readable=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -14,31 +14,31 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Condition</column_label>
+        <column_label>Table</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>sn_safe_story</default_value>
         <defaultsort/>
         <delete_roles/>
-        <dependent>table</dependent>
-        <dependent_on_field>table</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>condition</element>
+        <element>table</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Conditions">conditions</internal_type>
+        <internal_type display_value="">table_name</internal_type>
         <mandatory>false</mandatory>
-        <max_length>4000</max_length>
+        <max_length>32</max_length>
         <name>x_25421_safe_devop_safe_tasks</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -52,20 +52,20 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-11-06 17:03:39</sys_created_on>
-        <sys_id>0bd8ebbd2f106010e9b9ae6df699b6fa</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Condition</sys_name>
+        <sys_created_on>2020-11-06 17:16:33</sys_created_on>
+        <sys_id>d1dba3fd2f106010e9b9ae6df699b6a5</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Table</sys_name>
         <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
-        <sys_update_name>sys_dictionary_x_25421_safe_devop_safe_tasks_condition</sys_update_name>
+        <sys_update_name>sys_dictionary_x_25421_safe_devop_safe_tasks_table</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-06 17:35:23</sys_updated_on>
+        <sys_updated_on>2020-11-06 17:56:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
+        <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
