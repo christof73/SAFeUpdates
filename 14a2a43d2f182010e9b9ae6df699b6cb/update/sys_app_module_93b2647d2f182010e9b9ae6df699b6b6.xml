@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="SAFe DevOps">17b2283d2f182010e9b9ae6df699b6fc</application>
+        <application/>
         <assessment/>
         <device_type/>
         <filter/>

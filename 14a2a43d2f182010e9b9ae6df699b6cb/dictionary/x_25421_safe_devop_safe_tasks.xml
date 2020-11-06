@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SAFe Tasks" max_length="40" name="x_25421_safe_devop_safe_tasks" type="collection">
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Priority" max_length="40" name="priority" type="string"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" reference="sys_ui_reference_style" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+    </element>
+</database>

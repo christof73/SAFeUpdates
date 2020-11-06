@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>x_25421_safe_devop.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 02:37:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>17b2283d2f182010e9b9ae6df699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAFe DevOps</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name>sys_app_application_17b2283d2f182010e9b9ae6df699b6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 02:37:36</sys_updated_on>
+        <title>SAFe DevOps</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</application>
+        <file_path/>
+        <instance_id>774c5a08db3c7f00b847ac44d49619a6</instance_id>
+        <instance_name>dev79824</instance_name>
+        <name>sys_app_application_17b2283d2f182010e9b9ae6df699b6fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="">Custom Applications</category><description/><device_type>browser</device_type><hint/><name/><order/><roles>x_25421_safe_devop.user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-06 02:37:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>17b2283d2f182010e9b9ae6df699b6fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SAFe DevOps</sys_name><sys_overrides/><sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package><sys_policy/><sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope><sys_update_name>sys_app_application_17b2283d2f182010e9b9ae6df699b6fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-06 02:37:36</sys_updated_on><title>SAFe DevOps</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1126141650</payload_hash>
+        <record_name>SAFe DevOps</record_name>
+        <reverted_from/>
+        <source>54a2a43d2f182010e9b9ae6df699b6cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 02:37:36</sys_created_on>
+        <sys_id>dfb2283d2f182010e9b9ae6df699b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1759b6a9bf20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 02:37:36</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>1bb2283d021820106858e98ef1f84dfe</update_guid>
+        <update_guid_history>1bb2283d021820106858e98ef1f84dfe:1126141650</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SAFe DevOps">6b53ec7d2f182010e9b9ae6df699b6b3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-06 02:40:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>00ecc1df350246008190bc6d2b80e400</sys_id>
+        <sys_metadata>17b2283d2f182010e9b9ae6df699b6fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAFe DevOps</sys_name>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_scope_delete display_value="">0ae76599c0cf440081d3937c75531000</sys_scope_delete>
+        <sys_update_name>sys_app_application_17b2283d2f182010e9b9ae6df699b6fc</sys_update_name>
+        <sys_update_version display_value="sys_app_application_17b2283d2f182010e9b9ae6df699b6fc">dfb2283d2f182010e9b9ae6df699b6fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-06 02:40:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
