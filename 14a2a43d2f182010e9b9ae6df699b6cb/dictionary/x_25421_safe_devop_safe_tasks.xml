@@ -4,6 +4,14 @@
         <element hint="Task will only be generated for the following contractors, based on user assigned to story" label="Contractors" max_length="4000" name="companies" reference="core_company" type="glide_list"/>
         <element attributes="readable=true" dependent="table" dependent_on_field="table" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
+        <element choice="3" default="-6" label="Initial State" max_length="40" name="initial_state" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Complete" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="-6"/>
+                <element inactive_on_update="false" label="Ready" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Work in progress" sequence="2" value="2"/>
+            </choice>
+        </element>
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
             <choice>
