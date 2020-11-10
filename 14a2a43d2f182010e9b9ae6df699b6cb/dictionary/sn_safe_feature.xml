@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_delete_children=true" audit="true" extends="rm_feature" label="SAFe feature" max_length="40" name="sn_safe_feature" sizeclass="19" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Application SysID" max_length="40" name="x_25421_safe_devop_application_sysid" type="string"/>
+    </element>
+</database>

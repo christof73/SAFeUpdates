@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi_operation">
+    <sys_openapi_operation action="DELETE">
+        <complex_object_ids/>
+        <deprecated>false</deprecated>
+        <http_method/>
+        <name>asdf</name>
+        <openapi display_value="Test">a5c31c872f542010e9b9ae6df699b6f6</openapi>
+        <path/>
+        <serialized_operation/>
+        <sys_class_name>sys_openapi_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-09 22:44:52</sys_created_on>
+        <sys_id>2bc35c872f542010e9b9ae6df699b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asdf</sys_name>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name>sys_openapi_operation_2bc35c872f542010e9b9ae6df699b665</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-09 22:44:52</sys_updated_on>
+    </sys_openapi_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</application>
+        <file_path/>
+        <instance_id>774c5a08db3c7f00b847ac44d49619a6</instance_id>
+        <instance_name>dev79824</instance_name>
+        <name>sys_openapi_operation_2bc35c872f542010e9b9ae6df699b665</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi_operation"><sys_openapi_operation action="INSERT_OR_UPDATE"><complex_object_ids/><deprecated>false</deprecated><http_method/><name>asdf</name><openapi display_value="Test">a5c31c872f542010e9b9ae6df699b6f6</openapi><path/><serialized_operation/><sys_class_name>sys_openapi_operation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-09 22:44:52</sys_created_on><sys_id>2bc35c872f542010e9b9ae6df699b665</sys_id><sys_mod_count>0</sys_mod_count><sys_name>asdf</sys_name><sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package><sys_policy/><sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope><sys_update_name>sys_openapi_operation_2bc35c872f542010e9b9ae6df699b665</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-09 22:44:52</sys_updated_on></sys_openapi_operation></record_update>]]></payload>
+        <payload_hash>698530956</payload_hash>
+        <record_name>asdf</record_name>
+        <reverted_from/>
+        <source>9ee2ec3d2f182010e9b9ae6df699b6bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-09 22:44:53</sys_created_on>
+        <sys_id>51d358472f542010e9b9ae6df699b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175af2efaae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-09 22:44:53</sys_updated_on>
+        <type>OpenAPI  Operation</type>
+        <update_guid>99d35847f7542010e8fa13805cbecaac</update_guid>
+        <update_guid_history>99d35847f7542010e8fa13805cbecaac:698530956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-09 22:45:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_openapi_operation">sys_openapi_operation</sys_db_object>
+        <sys_id>ca5ffb42377f402ebbd30866bdcdb989</sys_id>
+        <sys_metadata>2bc35c872f542010e9b9ae6df699b665</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asdf</sys_name>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_scope_delete display_value="">0ae76599c0cf440081d3937c75531000</sys_scope_delete>
+        <sys_update_name>sys_openapi_operation_2bc35c872f542010e9b9ae6df699b665</sys_update_name>
+        <sys_update_version display_value="sys_openapi_operation_2bc35c872f542010e9b9ae6df699b665">51d358472f542010e9b9ae6df699b6ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-09 22:45:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

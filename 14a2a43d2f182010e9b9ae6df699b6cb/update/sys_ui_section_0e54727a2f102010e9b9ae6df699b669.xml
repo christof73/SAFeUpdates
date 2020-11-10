@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="SAFe DevOps" section_id="0e54727a2f102010e9b9ae6df699b669" sys_domain="global" table="sn_safe_scrum_task" version="3" view="safe_devops">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_worked</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-09 15:48:32</sys_created_on>
+            <sys_id>1e84727a2f102010e9b9ae6df699b673</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SAFe DevOps" display_value="SAFe DevOps" name="sn_safe_scrum_task" sys_domain="global" view="c566c4c22f906010e9b9ae6df699b696">0e54727a2f102010e9b9ae6df699b669</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-09 15:48:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>SAFe DevOps</caption>
+            <header>false</header>
+            <name>sn_safe_scrum_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-09 15:47:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e54727a2f102010e9b9ae6df699b669</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_safe_scrum_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+            <sys_update_name>sys_ui_section_0e54727a2f102010e9b9ae6df699b669</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-09 15:47:41</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SAFe DevOps" name="safe_devops">c566c4c22f906010e9b9ae6df699b696</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
