@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="rm_story" label="SAFe story" max_length="40" name="sn_safe_story" sizeclass="56" type="collection">
+        <element attributes="encode_utf8=false" choice="1" hint="Leave blank if development will occur in Global" label="Application Scope" max_length="32" name="x_25421_safe_devop_application_scope" reference="x_25421_safe_devop_remote_application" type="reference">
+            <choice/>
+        </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Peer Review Required" max_length="40" name="x_25421_safe_devop_peer_review_required" type="boolean"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Skip Default Task Creation" max_length="40" name="x_25421_safe_devop_skip_default_task_creation" type="boolean"/>
     </element>

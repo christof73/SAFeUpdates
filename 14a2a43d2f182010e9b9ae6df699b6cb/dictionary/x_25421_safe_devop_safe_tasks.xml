@@ -13,6 +13,7 @@
                 <element inactive_on_update="false" label="Work in progress" sequence="2" value="2"/>
             </choice>
         </element>
+        <element hint="Instructions presented to the user updating the task when the task is created for the Story" label="Instructions" max_length="1000" name="instructions" type="string"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
             <choice>
