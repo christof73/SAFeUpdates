@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>create_dev_update_set</internal_name>
-        <label_cache>[]</label_cache>
+        <label_cache>[{"name":"1a776d46-fb20-46c3-a9c1-255a54551e5d.app_name","label":"1➛app_name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"48097832-4330-4106-af6b-cbca5b0bd00c"}},{"name":"1a776d46-fb20-46c3-a9c1-255a54551e5d.app_scope","label":"1➛app_scope","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"10622d85-4cf0-41d6-a882-9c1e47aecd34"}},{"name":"1a776d46-fb20-46c3-a9c1-255a54551e5d.sysid","label":"1➛update set sysid","reference_display":"update set sysid","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"b406c4bb-b50a-442a-b777-9615082eab2b"}}]</label_cache>
         <latest_snapshot>924005532fd02010e9b9ae6df699b680</latest_snapshot>
         <master_snapshot>3dff7c132fd02010e9b9ae6df699b629</master_snapshot>
         <name>Create Dev Update Set</name>
@@ -23,14 +23,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-10 19:38:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2fa23c572f902010e9b9ae6df699b6ea</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Create Dev Update Set</sys_name>
         <sys_overrides/>
         <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
@@ -38,12 +38,66 @@
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
         <sys_update_name>sys_hub_flow_2fa23c572f902010e9b9ae6df699b6ea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-10 20:36:13</sys_updated_on>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2fa23c572f902010e9b9ae6df699b6ea"/>
     <sys_variable_value action="delete_multiple" query="document_key=2fa23c572f902010e9b9ae6df699b6ea"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=2fa23c572f902010e9b9ae6df699b6ea^sys_idNOT IN88ad3c9f2f902010e9b9ae6df699b68a"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2fa23c572f902010e9b9ae6df699b6ea^sys_idNOT IN3172519f2fd02010e9b9ae6df699b680,88ad3c9f2f902010e9b9ae6df699b68a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f572519f2fd02010e9b9ae6df699b67f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Dev Update Set">2fa23c572f902010e9b9ae6df699b6ea</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>app_scope,app_name</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:57:00</sys_created_on>
+        <sys_id>3172519f2fd02010e9b9ae6df699b680</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
+        <ui_id>f0be0f82-66ac-41cd-98ca-b89555f9e562</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3172519f2fd02010e9b9ae6df699b680"/>
+    <sys_element_mapping action="delete_multiple" query="id=3172519f2fd02010e9b9ae6df699b680"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>app_name</field>
+        <id>3172519f2fd02010e9b9ae6df699b680</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:57:00</sys_created_on>
+        <sys_id>3d72519f2fd02010e9b9ae6df699b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_2fa23c572f902010e9b9ae6df699b6ea</table>
+        <value>{{1a776d46-fb20-46c3-a9c1-255a54551e5d.app_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>app_scope</field>
+        <id>3172519f2fd02010e9b9ae6df699b680</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:57:00</sys_created_on>
+        <sys_id>f172519f2fd02010e9b9ae6df699b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_2fa23c572f902010e9b9ae6df699b6ea</table>
+        <value>{{1a776d46-fb20-46c3-a9c1-255a54551e5d.app_scope}}</value>
+    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Create Update Set">9de5781b2f902010e9b9ae6df699b6e5</action_type>
@@ -58,10 +112,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-10 20:25:57</sys_created_on>
         <sys_id>88ad3c9f2f902010e9b9ae6df699b68a</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-10 20:37:36</sys_updated_on>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
         <ui_id>1a776d46-fb20-46c3-a9c1-255a54551e5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=88ad3c9f2f902010e9b9ae6df699b68a"/>
@@ -159,6 +213,169 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=2fa23c572f902010e9b9ae6df699b6ea^sys_idNOT IN0db09d1f2fd02010e9b9ae6df699b61f,45b09d1f2fd02010e9b9ae6df699b628"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a20d469c-9b6c-48ac-82ed-7c6feda0c654</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>app_scope</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>app scope</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Dev Update Set">2fa23c572f902010e9b9ae6df699b6ea</model>
+        <model_id>2fa23c572f902010e9b9ae6df699b6ea</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_2fa23c572f902010e9b9ae6df699b6ea</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:49:18</sys_created_on>
+        <sys_id>0db09d1f2fd02010e9b9ae6df699b61f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:56:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=581f375d-a2ba-4ae7-8e96-dfe11e163046</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>app_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>app name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Dev Update Set">2fa23c572f902010e9b9ae6df699b6ea</model>
+        <model_id>2fa23c572f902010e9b9ae6df699b6ea</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_2fa23c572f902010e9b9ae6df699b6ea</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:49:18</sys_created_on>
+        <sys_id>45b09d1f2fd02010e9b9ae6df699b628</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
     <sys_hub_action_instance action="delete_multiple" query="flow=2fa23c572f902010e9b9ae6df699b6ea^sys_idNOT IN88ad3c9f2f902010e9b9ae6df699b68a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -174,10 +391,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-10 20:25:57</sys_created_on>
         <sys_id>88ad3c9f2f902010e9b9ae6df699b68a</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-10 20:37:36</sys_updated_on>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
         <ui_id>1a776d46-fb20-46c3-a9c1-255a54551e5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=88ad3c9f2f902010e9b9ae6df699b68a"/>
@@ -221,6 +438,61 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-10 20:35:20</sys_updated_on>
     </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2fa23c572f902010e9b9ae6df699b6ea^sys_idNOT IN3172519f2fd02010e9b9ae6df699b680"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f572519f2fd02010e9b9ae6df699b67f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Dev Update Set">2fa23c572f902010e9b9ae6df699b6ea</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>app_scope,app_name</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:57:00</sys_created_on>
+        <sys_id>3172519f2fd02010e9b9ae6df699b680</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
+        <ui_id>f0be0f82-66ac-41cd-98ca-b89555f9e562</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3172519f2fd02010e9b9ae6df699b680"/>
+    <sys_element_mapping action="delete_multiple" query="id=3172519f2fd02010e9b9ae6df699b680"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>app_name</field>
+        <id>3172519f2fd02010e9b9ae6df699b680</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:57:00</sys_created_on>
+        <sys_id>3d72519f2fd02010e9b9ae6df699b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_2fa23c572f902010e9b9ae6df699b6ea</table>
+        <value>{{1a776d46-fb20-46c3-a9c1-255a54551e5d.app_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>app_scope</field>
+        <id>3172519f2fd02010e9b9ae6df699b680</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:57:00</sys_created_on>
+        <sys_id>f172519f2fd02010e9b9ae6df699b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_2fa23c572f902010e9b9ae6df699b6ea</table>
+        <value>{{1a776d46-fb20-46c3-a9c1-255a54551e5d.app_scope}}</value>
+    </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2fa23c572f902010e9b9ae6df699b6ea^sys_idNOT IN5b1f70132fd02010e9b9ae6df699b64d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>story</element>
@@ -242,6 +514,53 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-10 20:32:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2fa23c572f902010e9b9ae6df699b6ea^sys_idNOT IN45b09d1f2fd02010e9b9ae6df699b62e,81b09d1f2fd02010e9b9ae6df699b627"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>app_name</element>
+        <help/>
+        <hint/>
+        <label>app name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_2fa23c572f902010e9b9ae6df699b6ea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:49:18</sys_created_on>
+        <sys_id>45b09d1f2fd02010e9b9ae6df699b62e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>app_scope</element>
+        <help/>
+        <hint/>
+        <label>app scope</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_2fa23c572f902010e9b9ae6df699b6ea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 21:49:18</sys_created_on>
+        <sys_id>81b09d1f2fd02010e9b9ae6df699b627</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 21:57:00</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

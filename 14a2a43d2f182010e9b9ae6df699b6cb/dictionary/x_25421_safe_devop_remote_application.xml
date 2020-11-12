@@ -2,5 +2,6 @@
     <element label="Remote Application" max_length="40" name="x_25421_safe_devop_remote_application" sizeclass="0" type="collection">
         <element label="Application SysID" max_length="40" name="application_sysid" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Scope" max_length="40" name="scope" type="string"/>
     </element>
 </database>

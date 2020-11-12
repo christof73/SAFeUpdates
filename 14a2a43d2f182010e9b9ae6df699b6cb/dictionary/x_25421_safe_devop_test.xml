@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Test" max_length="40" name="x_25421_safe_devop_test" type="collection">
+    <element label="Test" max_length="40" name="x_25421_safe_devop_test" sizeclass="0" type="collection">
         <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="SAFe Story" max_length="32" name="safe_story" reference="sn_safe_story" type="reference"/>
