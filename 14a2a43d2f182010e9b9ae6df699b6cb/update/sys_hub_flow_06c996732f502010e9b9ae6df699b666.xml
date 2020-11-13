@@ -12,7 +12,7 @@
         <description/>
         <internal_name>refresh_remote_applications</internal_name>
         <label_cache>[{"name":"a4a7fa00-03cb-4920-8be4-410ec5733f13.app_json","label":"1➛app json","reference_display":"app json","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4e146758-3467-4f40-bdbe-ebf70da75b39"}},{"name":"a4a7fa00-03cb-4920-8be4-410ec5733f13.app_array","label":"1➛Applications Array","reference_display":"Applications Array","type":"array.object","base_type":"array.object","attributes":{"sourceId":"957f5bb7-e6ea-40eb-9077-8cf20de1fe8b","max_rows":"1000","child_name":"result_object","uiUniqueId":"aa5ff98f-8624-41d1-b780-bbcd2948fb08","uiTypeLabel":"Array.Object","co_type_name":"FD921e1e776d50201059a6ffe78d1bb764","child_label":"result_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"b17afdfe-e0d6-4e62-924f-351a60da386f","uiType":"array.object","child_type":"object","child_uiUniqueId":"0ac039b3-39a1-488f-beec-57d78bce603a"}},{"name":"500212d7-a55e-442c-8efb-cd6a71e706c0.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"500212d7-a55e-442c-8efb-cd6a71e706c0.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"500212d7-a55e-442c-8efb-cd6a71e706c0.Records","label":"1➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fcae3d2-3dc0-464e-8f04-cecb17f5e14c.app_array","label":"1➛Applications Array","reference_display":"Applications Array","type":"array.object","base_type":"array.object","attributes":{"sourceId":"957f5bb7-e6ea-40eb-9077-8cf20de1fe8b","max_rows":"1000","child_name":"result_object","uiUniqueId":"aa5ff98f-8624-41d1-b780-bbcd2948fb08","uiTypeLabel":"Array.Object","co_type_name":"FD921e1e776d50201059a6ffe78d1bb764","child_label":"result_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"b17afdfe-e0d6-4e62-924f-351a60da386f","uiType":"array.object","child_type":"object","child_uiUniqueId":"0ac039b3-39a1-488f-beec-57d78bce603a"}}]</label_cache>
-        <latest_snapshot>4845feb72f902010e9b9ae6df699b60c</latest_snapshot>
+        <latest_snapshot>4e7a47f72fd02010e9b9ae6df699b623</latest_snapshot>
         <master_snapshot>4845feb72f902010e9b9ae6df699b60c</master_snapshot>
         <name>Refresh Remote Applications</name>
         <natlang/>
@@ -113,10 +113,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-12 17:04:47</sys_created_on>
         <sys_id>a0c22e3b2f502010e9b9ae6df699b623</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-12 19:11:35</sys_updated_on>
+        <sys_updated_on>2020-11-12 19:58:18</sys_updated_on>
         <ui_id>a4a7fa00-03cb-4920-8be4-410ec5733f13</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0c22e3b2f502010e9b9ae6df699b623"/>
@@ -135,10 +135,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-12 18:25:33</sys_created_on>
         <sys_id>f335beb72f902010e9b9ae6df699b6ca</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-12 19:11:35</sys_updated_on>
+        <sys_updated_on>2020-11-12 19:58:18</sys_updated_on>
         <ui_id>a31644f1-b961-44d3-b038-ef01d2304e6a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f335beb72f902010e9b9ae6df699b6ca"/>
@@ -216,10 +216,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-12 17:04:47</sys_created_on>
         <sys_id>a0c22e3b2f502010e9b9ae6df699b623</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-12 19:11:35</sys_updated_on>
+        <sys_updated_on>2020-11-12 19:58:18</sys_updated_on>
         <ui_id>a4a7fa00-03cb-4920-8be4-410ec5733f13</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0c22e3b2f502010e9b9ae6df699b623"/>
@@ -252,10 +252,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-12 18:25:33</sys_created_on>
         <sys_id>f335beb72f902010e9b9ae6df699b6ca</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-12 19:11:35</sys_updated_on>
+        <sys_updated_on>2020-11-12 19:58:18</sys_updated_on>
         <ui_id>a31644f1-b961-44d3-b038-ef01d2304e6a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f335beb72f902010e9b9ae6df699b6ca"/>
@@ -277,7 +277,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9445feb72f902010e9b9ae6df699b674","name":"plan"}}</plan>
         <plan_id>06c996732f502010e9b9ae6df699b666</plan_id>
-        <snapshot>4845feb72f902010e9b9ae6df699b60c</snapshot>
+        <snapshot>4e7a47f72fd02010e9b9ae6df699b623</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-12 18:25:35</sys_created_on>
         <sys_domain>global</sys_domain>

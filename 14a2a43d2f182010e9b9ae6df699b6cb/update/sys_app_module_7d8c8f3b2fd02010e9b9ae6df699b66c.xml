@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <application display_value="SAFe DevOps Configuration">8633647d2f182010e9b9ae6df699b649</application>
         <assessment/>
         <device_type/>
@@ -10,31 +10,31 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Tests</mobile_title>
+        <mobile_title>Flow Executions</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_25421_safe_devop_test</name>
-        <order>50</order>
+        <name>x_25421_safe_devop_flow_execution</name>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_25421_safe_devop.test_user</roles>
+        <roles>x_25421_safe_devop.flow_execution_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-11-10 18:25:07</sys_created_on>
+        <sys_created_on>2020-11-12 20:07:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>06f1289b2f502010e9b9ae6df699b65d</sys_id>
+        <sys_id>7d8c8f3b2fd02010e9b9ae6df699b66c</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Tests</sys_name>
+        <sys_name>Flow Execution</sys_name>
         <sys_overrides/>
         <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
-        <sys_update_name>sys_app_module_06f1289b2f502010e9b9ae6df699b65d</sys_update_name>
+        <sys_update_name>sys_app_module_7d8c8f3b2fd02010e9b9ae6df699b66c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-12 20:09:19</sys_updated_on>
+        <sys_updated_on>2020-11-12 20:18:22</sys_updated_on>
         <timeline_page/>
-        <title>Tests</title>
+        <title>Flow Execution</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

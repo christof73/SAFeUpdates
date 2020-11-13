@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sn_safe_story</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Execute Flows</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	gs.addInfoMessage('Running Execute Flows');
+	//query flow execution table
+	var fe = new GlideRecord('x_25421_safe_devop_flow_execution');
+	fe.query();
+	while(fe.next()){
+		var condition = fe.getValue('conditions');
+		gs.addInfoMessage('conditions: ' + condition);
+		var story = new GlideRecord('sn_safe_story');
+		story.addEncodedQuery('sys_id=' + current.sys_id + '^' + condition);
+		story.query();
+		if(story.next()){
+			gs.addInfoMessage('This story matches conditions for a flow!');
+			var flow = new x_25421_safe_devop.SADevOpsUtils();
+			flow.getFlowRecord(fe.flow);
+			var scope = new GlideRecord('sys_scope');
+			scope.get(flow.application);
+			var scopeName = scope.scope;
+			
+			var flowName = scopeName + '.' + flow.internal_name;
+			var inputs = {};
+			inputs['story'] = story;
+			flow.startSubflow(flowName,inputs);
+		}
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 19:44:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca2703772fd02010e9b9ae6df699b6a1</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Execute Flows</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
+        <sys_update_name>sys_script_ca2703772fd02010e9b9ae6df699b6a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-13 00:59:38</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca2703772fd02010e9b9ae6df699b6a1"/>
+</record_update>
