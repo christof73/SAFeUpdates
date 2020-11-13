@@ -34,19 +34,21 @@
 	fe.query();
 	while(fe.next()){
 		var condition = fe.getValue('conditions');
-		gs.addInfoMessage('conditions: ' + condition);
+
 		var story = new GlideRecord('sn_safe_story');
 		story.addEncodedQuery('sys_id=' + current.sys_id + '^' + condition);
 		story.query();
 		if(story.next()){
-			gs.addInfoMessage('This story matches conditions for a flow!');
+
 			var flow = new x_25421_safe_devop.SADevOpsUtils();
 			flow.getFlowRecord(fe.flow);
+			
 			var scope = new GlideRecord('sys_scope');
-			scope.get(flow.application);
+			scope.get(flow.sys_scope);
 			var scopeName = scope.scope;
 			
 			var flowName = scopeName + '.' + flow.internal_name;
+			gs.addInfoMessage('Flow executed ' + flowName);
 			var inputs = {};
 			inputs['story'] = story;
 			flow.startSubflow(flowName,inputs);
@@ -60,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ca2703772fd02010e9b9ae6df699b6a1</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Execute Flows</sys_name>
         <sys_overrides/>
         <sys_package display_value="SAFe DevOps" source="x_25421_safe_devop">14a2a43d2f182010e9b9ae6df699b6cb</sys_package>
@@ -68,9 +70,9 @@
         <sys_scope display_value="SAFe DevOps">14a2a43d2f182010e9b9ae6df699b6cb</sys_scope>
         <sys_update_name>sys_script_ca2703772fd02010e9b9ae6df699b6a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-13 00:59:38</sys_updated_on>
+        <sys_updated_on>2020-11-13 02:27:56</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=ca2703772fd02010e9b9ae6df699b6a1"/>
 </record_update>
